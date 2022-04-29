@@ -12,7 +12,7 @@ public class Main {
         // write your code here
         String answer="n";
         RobotImpl robot = new RobotImpl();
-        robot.setPosition(1, 2);
+        robot.setPosition(0, 0);
         System.out.println("Start position ==>\t" + robot.toString());
 
         Scanner scanner = new Scanner(System.in);
@@ -27,7 +27,6 @@ public class Main {
             }
             System.out.println("Do you want to continue? y or n");
             answer = scanner.nextLine();
-        }while (answer.equals("Y") || answer.equals("y"));
-
+        }while (answer.equalsIgnoreCase("Y"));
     }
 }

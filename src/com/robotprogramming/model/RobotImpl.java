@@ -1,8 +1,6 @@
 package com.robotprogramming.model;
 
-import com.robotprogramming.model.IRobot;
-import com.robotprogramming.model.IRoom;
-import com.service.RobotMoveService;
+import com.robotprogramming.service.RobotMoveService;
 
 import java.awt.Point;
 
